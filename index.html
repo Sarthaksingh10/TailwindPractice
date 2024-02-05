@@ -1,0 +1,96 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="src/output.css" rel="stylesheet">
+</head>
+
+<body class="m-0 p-0 overflow-x-hidden">
+  <nav class="justify-between bg-gray-500 text-green-500 flex p-2 text-xl ">
+    <div class="p-2">
+      <h1 class="hover:shadow-sm hover:cursor-pointer">Tailwind Practice</h1>
+    </div>
+    <div>
+      <ul class="flex p-2">
+        <li class="ml-2 hover:cursor-pointer hover:underline">Home</li>
+        <li class="ml-2 hover:cursor-pointer hover:underline">Contact us</li>
+        <li class="ml-2 hover:cursor-pointer hover:underline">About us</li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+    <span class="text-center p-2 text-xl justify-center flex align-middle mt-10">
+      <p class="w-4/5 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab assumenda, enim vitae in eveniet aut
+        rem. Odit consectetur earum rerum vero perferendis sapiente at magni laboriosam sint laudantium,
+        rem. Odit consectetur earum rerum vero perferendis sapiente at magni laboriosam sint </p>
+    </span>
+   
+    <div class="flex relative left-20">
+    <div class="h-80 w-64 bg-slate-500 relative left-40 top-10 flex flex-col">
+      <span class="h-20 w-20 rounded-full bg-cyan-300 relative top-5 left-1/3 block "><img src="image1.jpeg" alt="leaf" loading="lazy" class="rounded-full h-20 w-20  transition ease-in duration-0  hover:duration-300 hover:scale-125 hover:cursor-pointer "></span>
+      <span><p class="text-slate-200 text-center relative top-10 w-60">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae aspernatur ea tempora 
+        deleniti qui non consequatur quam dolores totam! Expedita?</p></span>
+    </div>
+    <div class="h-80 w-64 bg-slate-500 relative left-60 top-10 ">
+      <span class="h-20 w-20 rounded-full bg-cyan-300 relative top-5 left-1/3 block"><img src="image2.png" alt="leaf" loading="lazy" class="rounded-full h-20 w-20 transition ease-in duration-0 hover:duration-300 hover:scale-125 hover:cursor-pointer"></span>
+      <span><p class="text-slate-200 text-center relative top-10 w-60">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae aspernatur ea tempora 
+        deleniti qui non consequatur quam dolores totam! Expedita?</p></span>
+    </div>
+    <div class="h-80 w-64 bg-slate-500 relative left-80 top-10">
+      <span class="h-20 w-20 rounded-full bg-cyan-300 relative top-5 left-1/3 block"><img src="image3.jpeg" alt="leaf" loading="lazy" class="rounded-full h-20 w-20 transition duration-0 ease-in hover:duration-300 hover:scale-125 hover:cursor-pointer"></span>
+      <span><p class="text-slate-200 text-center relative top-10 w-60">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae aspernatur ea tempora 
+        deleniti qui non consequatur quam dolores totam! Expedita?</p></span>
+    </div>
+  </div>
+
+  <div class="w-2/3 text-xl flex justify-center text-center ml-48 mt-20 text-gray-500">
+    <p>Lorem ipsum dolor sit Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Illum, expedita rem veritatis sit voluptas quaerat earum laboriosam animi officia placeat?
+      Illum, expedita rem veritatis sit voluptas quaerat earum laboriosam animi officia placeat?</p>
+  </div>
+  </main>
+
+  <footer class="bg-black h-80 w-full mt-20">
+  <div class="flex relative left-96">
+    <div class="flex flex-col ">
+      <ul class="text-white relative left-10 top-20 text-2xl">
+        <li class="hover:cursor-pointer hover:underline p-2">FAQ</li>
+        <li class="hover:cursor-pointer hover:underline p-2">MAIL</li>
+        <li class="hover:cursor-pointer hover:underline p-2">ABOUT</li>
+      </ul>
+    </div>
+    <div class="flex flex-col">
+      <ul class="text-white relative left-32 top-20 text-2xl">
+        <li class="hover:cursor-pointer hover:underline p-2">ONE</li>
+        <li class="hover:cursor-pointer hover:underline p-2">TWO</li>
+        <li class="hover:cursor-pointer hover:underline p-2">THREE</li>
+      </ul>
+    </div>
+    <div class="flex flex-col">
+      <ul class="text-white relative left-52 top-20 text-2xl">
+        <li class="hover:cursor-pointer hover:underline p-2">SIX</li>
+        <li class="hover:cursor-pointer hover:underline p-2">FIVE</li>
+        <li class="hover:cursor-pointer hover:underline p-2">FOUR</li>
+      </ul>
+    </div>
+    <div class="flex flex-col">
+      <ul class="text-white relative left-72 top-20 text-2xl">
+        <li class="hover:cursor-pointer hover:underline p-2">SIX</li>
+        <li class="hover:cursor-pointer hover:underline p-2">FIVE</li>
+        <li class="hover:cursor-pointer hover:underline p-2">FOUR</li>
+      </ul>
+    </div>
+  </div>
+  </footer>
+</body>
+
+</html>
+
+
+<!-- Some Tailwind properties:
+1)peer/Group = If i want to change some function of the elements inside the div by hovering on the parent element
+than we will give the parent element utility class as "GROUP". and if we want to change parent class by hovering on the
+sibling class we will give the utility class "PEER" -->
